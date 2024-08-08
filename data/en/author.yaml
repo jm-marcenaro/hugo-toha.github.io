@@ -7,14 +7,14 @@ image: "images/author/john.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "marcenarojuanmartin@gmail.com"
-  phone: "+54 1140463365"
+  # phone: "+54 1140463365"
   github: jm-marcenaro
   linkedin: Juan Martín Marcenaro
-  researchgate: Juan Martín Marcenaro
+  # researchgate: Juan Martín Marcenaro
 
 # some summary about what you do
 summary:
   - I have a degree in Civil Engineering
-  - I work as a Geospatial Data Scientist
+  - I work as a Geospatial Consultant
   - I am a GIS & Remote Sensing Specialist
   - I have technical skills in Python, Javascript, QGIS and GEE

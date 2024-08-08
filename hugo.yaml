@@ -1,7 +1,7 @@
 baseURL: https://hugo-toha.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Juan's Blog"
 
 # Use Hugo modules to add theme
 
@@ -27,6 +27,7 @@ languages:
   fr:
     languageName: Français
     weight: 2
+    disabled: true
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -55,7 +56,7 @@ enableEmoji: true
 # Site parameters
 params:
   # GitHub repo URL of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/jm-marcenaro/hugo-toha.github.io
 
   features:
     # Enable portfolio section

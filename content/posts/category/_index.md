@@ -2,7 +2,7 @@
 title: Top Category Sample
 menu:
   sidebar:
-    name: Category
-    identifier: category
+    name: Data Science
+    identifier: Data Science
     weight: 20
 ---
