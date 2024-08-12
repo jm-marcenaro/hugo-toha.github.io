@@ -19,22 +19,22 @@ In our previous post, we ended up with two objects: **DS_01** and **DF_01**. **D
 
 As a result we created a plot of the variables contained within **DF_01** that looked like this:
 
-{{< vs 2 >}}
+{{< vs 1 >}}
 
 ![Output-01](static/Output-01.png)
 
-{{< vs 2 >}}
+{{< vs 1 >}}
 Now we'll begin by defining a new object named **DS_02** that is an xarray object containing the cumulative precipitation for the 5 day period:
-{{< vs 2 >}}
+{{< vs 1 >}}
 
 ```python
 # Create an image that's the cumulated precipitation for the entire period.
 DS_02 = DS_01["CUMSUM"].isel(FyH=-1) - DS_01["CUMSUM"].isel(FyH=0)
 ```
 
-{{< vs 2 >}}
+{{< vs 1 >}}
 Next, we'll define a geodataframe containing the longitude and latitude of our point of interest (POI):
-{{< vs 2 >}}
+{{< vs 1 >}}
 
 ```python
 # Create a geodataframe with the coordinates of the point of interest
@@ -44,11 +44,11 @@ DF_POI = pd.DataFrame({'LON': [LON], 'LAT': [LAT]})
 
 GDF_POI = gpd.GeoDataFrame(DF_POI, geometry=gpd.points_from_xy(DF_POI["LON"], DF_POI["LAT"]), crs="EPSG:4326").drop(columns=["LON", "LAT"])
 ```
-{{< vs 2 >}}
+{{< vs 1 >}}
 
 Now, we can make our first map with the following code. Note that we are plotting an xarray object by leveraging the integration between xarray and matplotlib. We selected a discrete blues colorbar and set its range and step. Moreover, we took advantage of some of Cartopy's capabilities, such as setting the map projection and adding coastlines for context. Finally, we've used Geopandas to plot the location of the point of interest (POI) on the map.
 
-{{< vs 2 >}}
+{{< vs 1 >}}
 
 ```python
 fig, ax = plt.subplots(1, 1, figsize=(5, 5), subplot_kw={'projection': ccrs.PlateCarree()}, constrained_layout=True)
@@ -88,14 +88,14 @@ fig.text(0.02, 0.10, f"GFS Model (SIM.: {DATE_START})", color='gray')
 
 plt.show();
 ```
-{{< vs 2 >}}
+{{< vs 1 >}}
 {{< img src="static/Output-02.png" align="center" title="Output-02">}}
-{{< vs 2 >}}
+{{< vs 1 >}}
 
 Finally, we'll bring everything together and visualize the map alongside the cumulative and discrete precipitation at the POI. We'll use Matplotlib's GridSpec method to create a well-organized layout. The code is extensive but achieves the desired result effectively.
 
 Here’s the complete code:
-{{< vs 2 >}}
+{{< vs 1 >}}
 
 ```python
 # Create the main plot using gridspec
@@ -186,9 +186,9 @@ fig.text(0.02, 0.02, f"GFS Model (SIM.: {DATE_START})", color='gray')
 plt.show();
 ```
 
-{{< vs 2 >}}
+{{< vs 1 >}}
 {{< img src="static/Output-03.png" align="center" title="Output-03">}}
-{{< vs 2 >}}
+{{< vs 1 >}}
 
 ### Conclusion
 
