@@ -1,5 +1,5 @@
 ---
-title: "GEE Python API and CHIRPs: Analyzing precipitation in Buenos Aires"
+title: "GEE Python API and CHIRPS: Analyzing precipitation in Buenos Aires"
 date: 2024-07-30T08:06:25+06:00
 description: An overview of GEE and the CHIRPS dataset for precipitation analysis.
 ---
