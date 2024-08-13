@@ -19,6 +19,7 @@ The code builds upon what we covered earlier. You can find the Jupyter notebook 
 By the end of this tutorial, we'll have a map of the cumulative precipitation over a region of interest (ROI) for a 5-day period. Additionally, we'll provide the cumulative and discrete hourly precipitation at a specific location (point of interest or POI) within the ROI. This will enable us to not only get values at a specific location but also gain insight into the spatial pattern of the event.
 
 ### Analysis and Visualization
+
 In our previous post, we ended up with two objects: **DS_01** and **DF_01**. **DS_01** is an xarray dataset containing the discrete and cumulative precipitation for our region of interest (ROI), while **DF_01** is a pandas dataframe containing the same variables but specifically for our point of interest (POI).
 
 As a result we created a plot of the variables contained within **DF_01** that looked like this:
