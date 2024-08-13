@@ -70,6 +70,10 @@ params:
     # Enable Table of contents in reading page
     toc:
       enable: true
+    
+    # Enable dark mode
+    darkMode:
+      enable: true
 
   # Configure footer
   footer:

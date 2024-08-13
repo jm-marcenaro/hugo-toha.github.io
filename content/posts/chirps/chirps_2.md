@@ -11,4 +11,4 @@ menu:
 ---
 
 ### Project Overview
-On this opportunity we'll take from where we left off and extract time series data from specific coordinates. Remember on ur last post we studied the severe drought of 2023 along Buenos Aires province, Argentina.
+On this opportunity we'll take from where we left off and extract time series data from specific coordinates. Remember on our last post we studied the severe drought of 2023 along Buenos Aires province, Argentina.
