@@ -1,16 +1,13 @@
 ---
 title: "GEE Python API and Precipitation Forecasting - Part 1"
 date: 2024-07-30T08:06:25+06:00
-# hero: /images/posts/writing-posts/analytics.svg
-# theme: Toha
 description: An overview of GEE and the GFS dataset for precipitation forecasting.
-# tags: ["GEE", "Python", "GFS", "xarray", "XEE"]
-# categories: ["Data Science", "Data Science 3",  "Geospatial Analysis"]
 menu:
   sidebar:
-    name: GEE
-    identifier: GEE
-    weight: 500
+    name: GFS Part 1
+    identifier: gfs-part1
+    parent: gfs
+    weight: 1
 ---
 
 ### Project Overview
@@ -192,7 +189,7 @@ fig.tight_layout()
 plt.show();
 ```
 {{< vs 1 >}}
-![Output-01](static/Output-01.png)
+![Output-01](static/_01.png)
 {{< vs 1 >}}
 
 ### Conclusion

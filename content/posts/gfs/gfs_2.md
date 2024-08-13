@@ -2,8 +2,12 @@
 title: "GEE Python API and Precipitation Forecasting - Part 2"
 date: 2024-07-30T08:06:25+06:00
 description: An overview of GEE and the GFS dataset for precipitation forecasting.
-tags: ["GEE", "Python", "GFS", "xarray", "XEE"]
-categories: ["Data Science", "Geospatial Analysis"]
+menu:
+  sidebar:
+    name: GFS Part 2
+    identifier: gfs-part2
+    parent: gfs
+    weight: 2
 ---
 
 ### Project Overview
@@ -21,7 +25,7 @@ As a result we created a plot of the variables contained within **DF_01** that l
 
 {{< vs 1 >}}
 
-![Output-01](static/Output-01.png)
+![Output-01](static/_01.png)
 
 {{< vs 1 >}}
 Now we'll begin by defining a new object named **DS_02** that is an xarray object containing the cumulative precipitation for the 5 day period:
@@ -89,7 +93,7 @@ fig.text(0.02, 0.10, f"GFS Model (SIM.: {DATE_START})", color='gray')
 plt.show();
 ```
 {{< vs 1 >}}
-{{< img src="static/Output-02.png" align="center" title="Output-02">}}
+{{< img src="static/_02.png" align="center" title="Output-02">}}
 {{< vs 1 >}}
 
 Finally, we'll bring everything together and visualize the map alongside the cumulative and discrete precipitation at the POI. We'll use Matplotlib's GridSpec method to create a well-organized layout. The code is extensive but achieves the desired result effectively.
@@ -187,7 +191,7 @@ plt.show();
 ```
 
 {{< vs 1 >}}
-{{< img src="static/Output-03.png" align="center" title="Output-03">}}
+{{< img src="static/_03.png" align="center" title="Output-03">}}
 {{< vs 1 >}}
 
 ### Conclusion

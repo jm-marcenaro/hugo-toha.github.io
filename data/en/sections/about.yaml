@@ -50,13 +50,15 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://github.com/jm-marcenaro"
 
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/juan-martín-marcenaro-338451192"
+
 # - name: Stackoverflow
 #   icon: "fab fa-stack-overflow"
 #   url: "#"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/juan-mart%C3%ADn-marcenaro-338451192/"
+
 
 # - name: Twitter
 #   icon: "fab fa-twitter"

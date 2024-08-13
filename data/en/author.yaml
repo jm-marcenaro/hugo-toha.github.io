@@ -8,8 +8,8 @@ image: "images/author/john.png"
 contactInfo:
   email: "marcenarojuanmartin@gmail.com"
   # phone: "+54 1140463365"
-  github: jm-marcenaro
-  linkedin: Juan Martín Marcenaro
+  github: "jm-marcenaro"
+  linkedin: "juan-martín-marcenaro-338451192"
   # researchgate: Juan Martín Marcenaro
 
 # some summary about what you do
