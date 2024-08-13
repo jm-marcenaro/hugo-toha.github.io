@@ -18,7 +18,7 @@ GFS is a widely-used weather forecast model developed by NOAA. It provides compr
 
 Moreover, we'll explore the newly released **XEE library**. XEE combines the well-known xarray library with Google Earth Engine, providing powerful tools for handling and analyzing geospatial data.  See more about XEE [here.](https://github.com/google/Xee)
 
-To make this project reproducible, you can access all the code from my [GitHub repository](https://github.com/jm-marcenaro/hugo-posts/tree/main/GEE%20Python%20API%20and%20precipitation%20forecasting). Feel free to check it out, try the code yourself, and leave comments or suggestions.
+To make this project reproducible, you can access all the code from my [GitHub repository](https://github.com/jm-marcenaro/hugo-posts). Feel free to check it out, try the code yourself, and leave comments or suggestions.
 
 By the end of this tutorial, you'll be able to extract a series of precipitation data at 1-hour intervals and calculate cumulative values for a forecast window of 5 days for your coordinates of interest.
 
@@ -189,7 +189,8 @@ fig.tight_layout()
 plt.show();
 ```
 {{< vs 1 >}}
-![Output-01](static/_01.png)
+![_01](/content/posts/gfs/static/_01.png)
+
 {{< vs 1 >}}
 
 ### Conclusion
