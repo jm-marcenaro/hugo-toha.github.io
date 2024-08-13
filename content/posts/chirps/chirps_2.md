@@ -11,3 +11,4 @@ menu:
 ---
 
 ### Project Overview
+On this opportunity we'll take from where we left off and extract time series data from specific coordinates.
