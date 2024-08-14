@@ -26,10 +26,12 @@ As a result we created a plot of the variables contained within **DF_01** that l
 
 {{< vs 1 >}}
 
-![Output-01](static/_01.png)
+![_01](./images/_01.png)
 
 {{< vs 1 >}}
+
 Now we'll begin by defining a new object named **DS_02** that is an xarray object containing the cumulative precipitation for the 5 day period:
+
 {{< vs 1 >}}
 
 ```python
@@ -94,7 +96,9 @@ fig.text(0.02, 0.10, f"GFS Model (SIM.: {DATE_START})", color='gray')
 plt.show();
 ```
 {{< vs 1 >}}
-{{< img src="static/_02.png" align="center" title="Output-02">}}
+
+![_02](images/_02.png)
+
 {{< vs 1 >}}
 
 Finally, we'll bring everything together and visualize the map alongside the cumulative and discrete precipitation at the POI. We'll use Matplotlib's GridSpec method to create a well-organized layout. The code is extensive but achieves the desired result effectively.
@@ -192,7 +196,9 @@ plt.show();
 ```
 
 {{< vs 1 >}}
-{{< img src="static/_03.png" align="center" title="Output-03">}}
+
+![_03](images/_03.png)
+
 {{< vs 1 >}}
 
 ### Conclusion

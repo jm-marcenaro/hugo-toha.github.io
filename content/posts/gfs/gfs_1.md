@@ -189,7 +189,8 @@ fig.tight_layout()
 plt.show();
 ```
 {{< vs 1 >}}
-![_01](/content/posts/gfs/static/_01.png)
+
+![_01](./images/_01.png)
 
 {{< vs 1 >}}
 

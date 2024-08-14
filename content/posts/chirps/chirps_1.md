@@ -251,7 +251,7 @@ plt.savefig(r"Output/_01.png")
 plt.show();
 ```
 {{< vs 1 >}}
-![Output-01](static/_01.png)
+![_01](images/_01.png)
 {{< vs 1 >}}
 
 ### Conclusion
