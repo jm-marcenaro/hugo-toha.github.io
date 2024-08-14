@@ -97,7 +97,8 @@ plt.show();
 ```
 {{< vs 1 >}}
 
-![_02](images/_02.png)
+<!-- ![_02](images/_02.png) -->
+{{<img src="images/_02.png" align="center">}}
 
 {{< vs 1 >}}
 
