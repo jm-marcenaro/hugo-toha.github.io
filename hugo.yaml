@@ -80,8 +80,8 @@ params:
       services:
         # GoatCounter
         goatCounter:
-        code: 114794  # Not self-hosted
-        # instance: <your GoatCounter instance url>  # For self-hosted you should use only one of the two methods
+        code: "114794"  # Not self-hosted
+        instance: "https://114794.goatcounter.com/count"  # For self-hosted you should use only one of the two methods
 
   # Configure footer
   footer:
