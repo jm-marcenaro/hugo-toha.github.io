@@ -74,6 +74,14 @@ params:
     # Enable dark mode
     darkMode:
       enable: true
+    
+    analytics:
+      enable: true
+      services:
+        # GoatCounter
+        goatCounter:
+        code: 114794  # Not self-hosted
+        # instance: <your GoatCounter instance url>  # For self-hosted you should use only one of the two methods
 
   # Configure footer
   footer:
