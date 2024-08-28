@@ -3,6 +3,6 @@ title: QGIS
 menu:
   sidebar:
     name: QGIS
-    identifier: QGIS
+    identifier: qgis
     weight: 100
 ---

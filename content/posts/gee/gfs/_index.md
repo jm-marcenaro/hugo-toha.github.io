@@ -4,5 +4,6 @@ menu:
   sidebar:
     name: GFS
     identifier: gfs
-    weight: 100
+    parent: gee
+    weight: 90
 ---

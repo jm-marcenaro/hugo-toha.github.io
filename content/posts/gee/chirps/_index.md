@@ -4,5 +4,6 @@ menu:
   sidebar:
     name: CHIRPS
     identifier: chirps
-    weight: 100
+    parent: gee
+    weight: 90
 ---

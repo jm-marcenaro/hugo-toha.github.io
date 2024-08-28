@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: Batch Processing
     identifier: batch_processing
-    parent: QGIS
+    parent: qgis
     weight: 1
 ---
 
