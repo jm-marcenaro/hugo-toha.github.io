@@ -1,0 +1,6 @@
+.sidebar-section {
+    order: 1;
+    flex: 30%;
+    max-width: 30%;
+    @include transition();
+}

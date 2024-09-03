@@ -1,6 +1,6 @@
 ---
 title: "GEE Python API and Precipitation Forecasting - Part 1"
-date: 2024-07-30T08:06:25+06:00
+date: 2024-07-15T08:06:25+06:00
 description: An overview of GEE and the GFS dataset for precipitation forecasting.
 menu:
   sidebar:

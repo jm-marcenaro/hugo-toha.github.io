@@ -1,6 +1,6 @@
 ---
 title: "QGIS: Batch Processing"
-date: 2024-07-30T08:06:25+06:00
+date: 2024-08-20T00:00:00+00:00
 description: An overview on QGIS batch processing capabilities
 menu:
   sidebar:
