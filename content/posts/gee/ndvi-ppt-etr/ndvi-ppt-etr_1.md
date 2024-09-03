@@ -307,6 +307,8 @@ CB.set_label("[mm]", fontsize=AX_FS)
 plt.savefig(r"Output/_02.png")
 plt.show();
 ```
+{{< vs 1 >}}
+
 {{<img src="images/_02.png" align="center">}}
 
 {{< vs 1 >}}
