@@ -74,7 +74,7 @@ Additionally, logging is included to track the process, and the Python script is
 
 The *server.js* script initializes an Express application to serve static files and interact with the SQLite database *GFS-DB.db* we've previously created. It then sets up a GET route at */data* to retrieve all records from the database table. Upon success, it responds with a JSON object containing the forecast data. The server listens on a specified port, providing a straightforward API for accessing this data, which can be integrated with the JavaScript code that we'll explore next.
 
-## Building a responsive dashboard for data visualization.
+## Building a responsive dashboard for data visualization
 The dashboard is built using a combination of HTML, JavaScript, and CSS. Let’s break it up and explore what each component does:
 
 #### HTML
