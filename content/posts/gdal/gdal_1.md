@@ -1,7 +1,7 @@
 ---
-title: "Calculate slopes from a DEM using GDAL"
+title: "Calculate slopes from a DEM using GDAL and Python"
 date: 2024-09-27T00:00:00+00:00
-description: Calculate slopes from a DEM using GDAL
+description: Calculate slopes from a DEM using GDAL and Python
 menu:
   sidebar:
     name: Slopes with GDAL
