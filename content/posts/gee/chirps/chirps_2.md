@@ -13,7 +13,7 @@ menu:
 ### Project Overview
 In this post, we continue our exploration of the 2023 severe drought in Buenos Aires province, Argentina. In our previous post, we used the CHIRPS dataset to analyze the extent and impact of the drought. Now, we’ll take our analysis a step further by extracting time series data from specific coordinates within the affected region.
 
-To ensure that you can follow along and reproduce the results, all the code used in this analysis is available in my [GitHub repository](https://github.com/jm-marcenaro/hugo-posts/tree/main/GEE%20Python%20API%20-%20CHIRPS).
+To ensure that you can follow along and reproduce the results, all the code used in this analysis is available in my [GitHub repository](https://github.com/jm-marcenaro/GEE-Python-API-CHIRPS).
 
 ### Analysis
 We'll start by calling the necessary libraries, initializing GEE, and setting our point of interest—specifically chosen for experiencing the most severe drought conditions during this period.

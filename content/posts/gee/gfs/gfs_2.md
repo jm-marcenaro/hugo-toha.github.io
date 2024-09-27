@@ -14,7 +14,7 @@ menu:
 
 Hello again! Welcome to the continuation of our deep dive into precipitation forecasting using the GFS dataset and the GEE Python API. In our previous post, we demonstrated how to use the GEE Python API along with the XEE library (an integration of GEE and xarray) to forecast precipitation for specific coordinates. This time, we’re going to expand our analysis to cover an entire region. Besides, we'll leverage additional libraries such as Geopandas and Cartopy to create comprehensive spatial maps of precipitation forecasts.
 
-The code builds upon what we covered earlier. You can find the Jupyter notebook in my GitHub repository  [here](https://github.com/jm-marcenaro/hugo-posts/blob/main/GEE%20Python%20API%20and%20precipitation%20forecasting/PPT-GFS-XEE-02.ipynb).
+The code builds upon what we covered earlier. You can find the Jupyter notebook in my GitHub repository  [here](https://github.com/jm-marcenaro/GEE-Python-API-GFS).
 
 By the end of this tutorial, we'll have a map of the cumulative precipitation over a region of interest (ROI) for a 5-day period. Additionally, we'll provide the cumulative and discrete hourly precipitation at a specific location (point of interest or POI) within the ROI. This will enable us to not only get values at a specific location but also gain insight into the spatial pattern of the event.
 

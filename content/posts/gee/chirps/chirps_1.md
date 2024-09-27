@@ -23,7 +23,7 @@ By the end of this article, we’ll produce a series of maps showcasing:
 
 - An anomaly map highlighting the difference between the first two maps.
 
-To ensure this project is reproducible, all the code is available in my [GitHub repository](https://github.com/jm-marcenaro/hugo-posts/tree/main/GEE%20Python%20API%20-%20CHIRPS). Feel free to explore, run the code, and share your thoughts or suggestions!
+To ensure this project is reproducible, all the code is available in my [GitHub repository](https://github.com/jm-marcenaro/GEE-Python-API-CHIRPS). Feel free to explore, run the code, and share your thoughts or suggestions!
 
 ### Analysis
 We'll begin by importing the necessary libraries, initializing Earth Engine, defining the region of interest (ROI), and creating a dictionary to store the image collections for our analysis. This dictionary will contain an image collection for each year. Keep in mind that the CHIRPS dataset provides daily precipitation values with a spatial resolution of approximately 5000 meters.

@@ -17,7 +17,7 @@ In this post, we'll explore the correlation between multiple environmental data 
 - Precipitation data will be sourced from the CHIRPS dataset.
 - Real evapotranspiration (ETr) data will be obtained from the MODIS satellite.
 
-To make this project reproducible, you can access all the code from my [GitHub repository](https://github.com/jm-marcenaro/hugo-posts). Feel free to check it out, try the code yourself, and leave comments or suggestions.
+To make this project reproducible, you can access all the code from my [GitHub repository](https://github.com/jm-marcenaro/GEE-Python-API-NDVI-PPT-ETR). Feel free to check it out, try the code yourself, and leave comments or suggestions.
 
 ### Analysis
 To begin with, we'll import the necessary libraries, initialize earth engine and define our region of interest by reading a shapefile and extracting its bounding box with Geopandas. The region corresponds to a department within Buenos Aires province, Argentina.
