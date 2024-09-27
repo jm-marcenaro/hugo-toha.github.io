@@ -57,7 +57,7 @@ The project structure is shown below. The main directories are:
 
 ## Retrieving data from GEE Python API
 
-The Python script GOES.py downloads true-color GOES-16 satellite images over Argentina for a specific date and time of interest, plus the 6 hours preceding it. It processes these images by scaling the red, blue, and near-infrared bands, creating a synthetic green band, and saves them as PNGs. Additionally, it generates a timestamp file for tracking when each image was captured. For more details on processing true-color GOES-16 images, you can refer to this [article](https://jstnbraaten.medium.com/goes-in-earth-engine-53fbc8783c16).
+The Python script GOES.py downloads true-color GOES-16 satellite images over Argentina for a specific date and time of interest, plus the 6 hours preceding it and sampled every 30 minutes. It processes these images by scaling the red, blue, and near-infrared bands, creating a synthetic green band, and saves them as PNGs. Additionally, it generates a timestamp file for tracking when each image was captured. For more details on processing true-color GOES-16 images, you can refer to this [article](https://jstnbraaten.medium.com/goes-in-earth-engine-53fbc8783c16).
 
 
 ## Serving through a local Node.js server
