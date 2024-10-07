@@ -8,6 +8,7 @@ menu:
     identifier: gdal_slopes
     parent: gdal
     weight: 1
+# hero: boat.jpg
 ---
 
 ## Project Overview
